@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
-*main - Prints the last digit of random number
+*main - Program to print alphabet letter followed by new line
 *
-*Return: Return 0
+*Return: return 0
 */
 int main(void)
 {
-	int x;
+	int leter;
 	
-	for (x = 'a'; x <= 'z'; x++)
+	for (leter = 'a'; leter <= 'z'; leter++)
 	{
-	 x = tolower(x);
-		putchar(x);
+		leter = tolower(leter);
+		putchar(leter);
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
