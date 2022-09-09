@@ -8,7 +8,7 @@
 int main(void)
 {
 	int leter;
-	
+
 	for (leter = 'a'; leter <= 'z'; leter++)
 	{
 		leter = tolower(leter);
