@@ -9,10 +9,10 @@
 int main(void)
 {
 	int x ;
- for( x = 'a'; x <= 'z'; x++) // jumps from 'A'(65) to 'B'(66) to ... in order.
+ for( x = 'a'; x <= 'z'; x++) 
     {
         x = tolower(x);
-        putchar(x); // the return value is returned as a parameter
+        putchar(x); 
     }
 	putchar('\n');
     return 0;
