@@ -1,9 +1,8 @@
 #include "main.h"
 /**
-*print_alphabet_x10 - checks for lowercase character
-* 
-*desc: The function uses loop to operate
-*Return: no return
+*_islower
+*@c: character to be verified
+*Return: return 0 or 1
 */
 
 int _islower(int c)
@@ -11,5 +10,5 @@ int _islower(int c)
 if (c >= 'a' && c <= 'z')
 return (1);
 
-return (0);	
+return (0);
 }
