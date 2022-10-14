@@ -25,5 +25,4 @@ sum += va_arg(li, int);
 
 va_end(li);
 return (sum);
-
 }
